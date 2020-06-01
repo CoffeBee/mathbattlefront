@@ -3,7 +3,7 @@ Before runnig you need to install npm packages
 
 ```npm install```
 
-```npm react-router```
+```npm install react-router```
 
 For running
 
