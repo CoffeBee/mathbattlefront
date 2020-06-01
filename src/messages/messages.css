@@ -1,0 +1,141 @@
+.messages {
+    position: fixed;
+    margin: 0;
+    margin-left: 330px;
+    width: calc(100vw - 330px);
+}
+
+.messages__container {
+    padding-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;;
+}
+.messages__header {
+    display: flex;
+    padding-bottom: 15px;
+}
+.messages__header__title {
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.messages__header__right {
+    margin-left: auto;
+    order: 2;
+}
+
+.messages__header__right__text {
+    font-size: 14px;
+    color: #A4A4A4;
+    letter-spacing: 0;
+    text-align: right;
+}
+
+.messages__line {
+    border-top: 2px rgba(0, 0, 0, 0.24);
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.messages__content {
+    overflow-y: scroll;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+.messages__block {
+    width: calc(100vw - 330px);
+    position: fixed;
+    margin-left: 330px;
+    margin-top: 110px;
+}
+
+.messages__content__bottom {
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-top: auto;
+}
+
+.messages__message {
+
+    margin: 0;
+    padding-bottom: 12px;
+}
+.messages__message__info {
+    display: flex;
+}
+.messages__message__name {
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    letter-spacing: 0;
+}
+
+.messages__message__time {
+    margin: 0;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #8D8D8D;
+    letter-spacing: 0;
+}
+
+.messages__message__text {
+    margin: 0;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 20px;
+    max-width: 750px;
+}
+
+.new_message__form {
+    background: #FFFFFF;
+    width: 100%;
+    height: 78px;
+    margin-left: 330px;
+    margin-top: calc(100vh - 78px);
+    margin-bottom: 0px;
+    position: fixed;
+}
+
+.new_message__line {
+    opacity: 0.24;
+    background: #000000;
+}
+
+.new_message__input_div {
+    position: absolute;
+    top: 40%;
+    padding-left: 92px;
+    width: 100%;
+}
+
+.new_message__input {
+    font-size: 14px;
+    color: #8D8D8D;
+    border: 0px;
+    letter-spacing: 0;
+}
+
+.new_message__icons_upload {
+    position: absolute;
+    top: 40%;
+    padding-left: 24px;
+}
+
+.new_message__icons_microphone {
+    position: absolute;
+    top: 40%;
+    padding-left: 56px;
+}
+
+.new_message__icons_emodgi {
+    position: absolute;
+    top: 40%;
+    padding-left: calc(100vh + 430px);
+}
