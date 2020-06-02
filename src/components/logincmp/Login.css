@@ -84,6 +84,7 @@
 }
 
 .register_p {
+  display: table-cell;
   font-size: 15px;
   color: #656464;
   letter-spacing: 0;
@@ -93,19 +94,28 @@
 }
 
 .form_submit {
+  display: table-cell;
+  padding: 0px;
   background: #D8D8D8;
   border: 1px solid #979797;
   border-radius: 8px;
-  margin-left: 303px;
   padding-top: 29px;
   width: 137px;
   height: 54px;
+  margin-left: 63px;
 }
 
 .form_submit_p {
+  padding: 0px;
   font-size: 19px;
   color: #656464;
   letter-spacing: 0;
   text-align: center;
   padding-bottom: 12px;
+}
+
+
+.row {
+  display: table;
+  padding-left: 36px;
 }
