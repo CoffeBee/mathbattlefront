@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1431px" height="787px" viewBox="0 0 1431 787" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Фон</title>
+    <defs>
+        <path d="M27.1396114,5.96261395 C38.7951196,6.02616091 48.2952938,15.3845265 48.3588405,26.8650617 C48.4223875,38.3456401 39.025243,47.6009326 27.3697349,47.5373856 C15.7143143,47.4738391 6.21414026,38.1155167 6.1505933,26.6349383 C6.08704657,15.154403 15.4841908,5.89906746 27.1396114,5.96261395 Z" id="path-1"></path>
+        <filter x="-64.0%" y="-60.1%" width="218.5%" height="220.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M27.0873275,5.96763042 C38.716593,6.02265064 48.1885811,15.371858 48.2436011,26.8496227 C48.2986213,38.3274306 38.9158385,47.5873894 27.2865729,47.5323692 C15.6573947,47.4773494 6.18540687,38.1281852 6.13038665,26.6503773 C6.07536664,15.1726125 15.4581493,5.91261061 27.0873275,5.96763042 Z" id="path-3"></path>
+        <filter x="-64.1%" y="-60.1%" width="218.7%" height="220.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M27.0873275,5.96763042 C38.716593,6.02265064 48.1885811,15.371858 48.2436011,26.8496227 C48.2986213,38.3274306 38.9158385,47.5873894 27.2865729,47.5323692 C15.6573947,47.4773494 6.18540687,38.1281852 6.13038665,26.6503773 C6.07536664,15.1726125 15.4581493,5.91261061 27.0873275,5.96763042 Z" id="path-5"></path>
+        <filter x="-64.1%" y="-60.1%" width="218.7%" height="220.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M27.1396114,5.96261395 C38.7951196,6.02616091 48.2952938,15.3845265 48.3588405,26.8650617 C48.4223875,38.3456401 39.025243,47.6009326 27.3697349,47.5373856 C15.7143143,47.4738391 6.21414026,38.1155167 6.1505933,26.6349383 C6.08704657,15.154403 15.4841908,5.89906746 27.1396114,5.96261395 Z" id="path-7"></path>
+        <filter x="-64.0%" y="-60.1%" width="218.5%" height="220.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M20.8941925,1.19229815 C32.1523333,1.19229815 41.2788625,11.8685658 41.2788625,25.0384663 C41.2788625,38.2083173 32.1523333,48.8846345 20.8941925,48.8846345 C9.63613639,48.8846345 0.509607231,38.2083173 0.509607231,25.0384663 C0.509607231,11.8685658 9.63613639,1.19229815 20.8941925,1.19229815 Z" id="path-9"></path>
+        <filter x="-62.6%" y="-49.3%" width="214.6%" height="197.4%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M25.6428978,1.19229815 C39.4597204,1.19229815 50.6604717,11.8685658 50.6604717,25.0384663 C50.6604717,38.2083173 39.4597204,48.8846345 25.6428978,48.8846345 C11.826179,48.8846345 0.625427668,38.2083173 0.625427668,25.0384663 C0.625427668,11.8685658 11.826179,1.19229815 25.6428978,1.19229815 Z" id="path-12"></path>
+        <filter x="-50.8%" y="-49.3%" width="192.7%" height="197.4%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M20.9880568,1.84881009 C32.2967732,1.84881009 41.4643021,12.8855252 41.4643021,26.5 C41.4643021,40.1144231 32.2967732,51.1511899 20.9880568,51.1511899 C9.67942542,51.1511899 0.511896571,40.1144231 0.511896571,26.5 C0.511896571,12.8855252 9.67942542,1.84881009 20.9880568,1.84881009 Z" id="path-15"></path>
+        <filter x="-62.3%" y="-45.9%" width="214.1%" height="191.8%" filterUnits="objectBoundingBox" id="filter-17">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M31.6762134,7.57157372 C43.3361302,6.71670199 52.0953527,16.558803 51.240481,29.5545179 C50.3856125,42.5501839 40.2403719,53.7782575 28.580455,54.6331292 C16.9206258,55.4879945 8.16140008,45.6459423 9.01626859,32.6502763 C9.87114032,19.6545614 20.0163842,8.42643903 31.6762134,7.57157372 Z" id="path-18"></path>
+        <filter x="-63.8%" y="-53.0%" width="218.1%" height="206.0%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M31.7038551,7.46261697 C43.3653624,6.57003984 52.0953079,16.4306259 51.2027308,29.4868486 C50.310157,42.5430223 40.1330609,53.8507132 28.4715536,54.7432904 C16.8101339,55.6358608 8.08018499,45.7753238 8.97275877,32.7191501 C9.8653359,19.6629274 20.0424354,8.3551874 31.7038551,7.46261697 Z" id="path-21"></path>
+        <filter x="-63.7%" y="-52.8%" width="218.0%" height="205.5%" filterUnits="objectBoundingBox" id="filter-23">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(0.000000, 1.000000)">
+            <g id="Фон" transform="translate(0.000000, -1.000000)">
+                <text id="Решено" transform="translate(88.436887, 94.500000) rotate(-12.000000) translate(-88.436887, -94.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="45.7507659" y="101">Решено</tspan>
+                </text>
+                <text id="Решено" transform="translate(1196.243369, 712.500000) rotate(13.000000) translate(-1196.243369, -712.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="1153.55725" y="719">Решено</tspan>
+                </text>
+                <text id="Решено" transform="translate(1196.243369, 712.500000) rotate(13.000000) translate(-1196.243369, -712.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="1153.55725" y="719">Решено</tspan>
+                </text>
+                <text id="Топ" transform="translate(1119.876439, 93.930543) rotate(-12.000000) translate(-1119.876439, -93.930543) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="1093.95987" y="100.430543">Топ</tspan>
+                </text>
+                <text id="Топ" transform="translate(269.852903, 258.000000) scale(1, -1) rotate(12.000000) translate(-269.852903, -258.000000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="243.936329" y="266">Топ</tspan>
+                </text>
+                <text id="Топ" transform="translate(758.710626, 714.500000) rotate(6.000000) translate(-758.710626, -714.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="732.794052" y="721">Топ</tspan>
+                </text>
+                <text id="Топ" transform="translate(1143.902054, 432.500000) scale(1, -1) rotate(-6.000000) translate(-1143.902054, -432.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="1117.98548" y="442">Топ</tspan>
+                </text>
+                <text id="Топ" transform="translate(432.466698, 433.500000) rotate(14.000000) translate(-432.466698, -433.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="406.550125" y="440">Топ</tspan>
+                </text>
+                <text id="Решено" font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="387" y="737">Решено</tspan>
+                </text>
+                <text id="Уведомления" transform="translate(402.992948, 72.500000) rotate(-12.000000) translate(-402.992948, -72.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="336.422925" y="79">Уведомления</tspan>
+                </text>
+                <text id="Новый-контест" transform="translate(582.376291, 699.500000) rotate(2.000000) translate(-582.376291, -699.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="507.167411" y="706">Новый контест</tspan>
+                </text>
+                <text id="Уведомления" transform="translate(350.601610, 612.688351) scale(1, -1) rotate(7.000000) translate(-350.601610, -612.688351) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="284.031588" y="614.688351">Уведомления</tspan>
+                </text>
+                <text id="Уведомления" transform="translate(1322.777229, 231.000000) scale(1, -1) rotate(14.000000) translate(-1322.777229, -231.000000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="1256.20721" y="233">Уведомления</tspan>
+                </text>
+                <g id="гик-смайлик" transform="translate(99.000000, 336.000000)">
+                    <g id="Shape" transform="translate(27.254717, 26.750000) rotate(-18.000000) translate(-27.254717, -26.750000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#AF6123" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="🤓" transform="translate(27.236373, 29.121640) rotate(-18.000000) translate(-27.236373, -29.121640) " font-family="AppleColorEmoji, Apple Color Emoji" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="14.9722222" y="37.1216399">🤓</tspan>
+                    </text>
+                </g>
+                <g id="гик-смайлик" transform="translate(1364.176789, 415.926108) rotate(40.000000) translate(-1364.176789, -415.926108) translate(1337.176789, 388.926108)">
+                    <g id="Shape" transform="translate(27.186994, 26.750000) rotate(-18.000000) translate(-27.186994, -26.750000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#2330AF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <text id="🤓" transform="translate(27.168696, 29.121640) rotate(-18.000000) translate(-27.168696, -29.121640) " font-family="AppleColorEmoji, Apple Color Emoji" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="14.8728984" y="37.1216399">🤓</tspan>
+                    </text>
+                </g>
+                <g id="гик-смайлик" transform="translate(1366.815099, 578.877036) rotate(-34.000000) translate(-1366.815099, -578.877036) translate(1339.815099, 551.877036)">
+                    <g id="Shape" transform="translate(27.186994, 26.750000) rotate(-18.000000) translate(-27.186994, -26.750000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#C94141" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <text id="🤓" transform="translate(27.168696, 29.121640) rotate(-18.000000) translate(-27.168696, -29.121640) " font-family="AppleColorEmoji, Apple Color Emoji" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="14.8728984" y="37.1216399">🤓</tspan>
+                    </text>
+                </g>
+                <g id="гик-смайлик" transform="translate(429.000000, 525.000000)">
+                    <g id="Shape" transform="translate(27.254717, 26.750000) rotate(-18.000000) translate(-27.254717, -26.750000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#7F23AF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <text id="🤓" transform="translate(27.236373, 29.121640) rotate(-18.000000) translate(-27.236373, -29.121640) " font-family="AppleColorEmoji, Apple Color Emoji" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="14.9722222" y="37.1216399">🤓</tspan>
+                    </text>
+                </g>
+                <text id="Новый-контест" transform="translate(296.785813, 427.500000) rotate(53.000000) translate(-296.785813, -427.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="221.576932" y="434">Новый контест</tspan>
+                </text>
+                <text id="Новый-контест" transform="translate(1226.733456, 482.500000) rotate(-7.000000) translate(-1226.733456, -482.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="1151.52458" y="489">Новый контест</tspan>
+                </text>
+                <text id="Новый-контест" transform="translate(1337.218887, 356.701254) scale(1, -1) rotate(-18.000000) translate(-1337.218887, -356.701254) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="1262.01001" y="363.201254">Новый контест</tspan>
+                </text>
+                <text id="Новый-контест" transform="translate(733.810388, 755.500000) rotate(14.000000) translate(-733.810388, -755.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="658.601508" y="762">Новый контест</tspan>
+                </text>
+                <text id="#" transform="translate(115.369797, 645.500000) rotate(-39.000000) translate(-115.369797, -645.500000) " font-family="'Montserrat', sans-serif" font-size="200" font-weight="normal" fill="#656464">
+                    <tspan x="53.8814557" y="736">#</tspan>
+                </text>
+                <text id="#" transform="translate(92.502232, 218.500000) rotate(3.000000) translate(-92.502232, -218.500000) " font-family="'Montserrat', sans-serif" font-size="50" font-weight="normal" fill="#656464">
+                    <tspan x="71.1591715" y="236">#</tspan>
+                </text>
+                <text id="#" transform="translate(1202.062815, 332.719465) rotate(8.000000) translate(-1202.062815, -332.719465) " font-family="'Montserrat', sans-serif" font-size="120" font-weight="normal" fill="#656464">
+                    <tspan x="1159.37669" y="378.219465">#</tspan>
+                </text>
+                <text id="@" transform="translate(85.896047, 42.000000) rotate(35.000000) translate(-85.896047, -42.000000) " font-family="'Montserrat', sans-serif" font-size="50" font-weight="normal" fill="#656464">
+                    <tspan x="56.9304644" y="61">@</tspan>
+                </text>
+                <text id="#1" transform="translate(590.506981, 49.000000) rotate(177.000000) translate(-590.506981, -49.000000) " font-family="'Montserrat', sans-serif" font-size="50" font-weight="normal" fill="#656464">
+                    <tspan x="553.918877" y="68">#1</tspan>
+                </text>
+                <text id="#1" transform="translate(409.599133, 337.000000) rotate(26.000000) translate(-409.599133, -337.000000) " font-family="'Montserrat', sans-serif" font-size="50" font-weight="normal" fill="#656464">
+                    <tspan x="373.011029" y="356">#1</tspan>
+                </text>
+                <text id="#1" transform="translate(1273.484922, 545.000000) rotate(-6.000000) translate(-1273.484922, -545.000000) " font-family="'Montserrat', sans-serif" font-size="50" font-weight="normal" fill="#656464">
+                    <tspan x="1236.89682" y="564">#1</tspan>
+                </text>
+                <text id="#1" transform="translate(1021.433539, 726.000000) rotate(-36.000000) translate(-1021.433539, -726.000000) " font-family="'Montserrat', sans-serif" font-size="50" font-weight="normal" fill="#656464">
+                    <tspan x="984.845435" y="745">#1</tspan>
+                </text>
+                <text id="@" transform="translate(1346.152962, 686.000000) rotate(-31.000000) translate(-1346.152962, -686.000000) " font-family="'Montserrat', sans-serif" font-size="50" font-weight="normal" fill="#656464">
+                    <tspan x="1317.18738" y="705">@</tspan>
+                </text>
+                <text id="@" transform="translate(1210.980244, 153.000000) rotate(-11.000000) translate(-1210.980244, -153.000000) " font-family="'Montserrat', sans-serif" font-size="50" font-weight="normal" fill="#656464">
+                    <tspan x="1182.01466" y="172">@</tspan>
+                </text>
+                <text id="@" transform="translate(1048.366449, 402.000000) rotate(-27.000000) translate(-1048.366449, -402.000000) " font-family="'Montserrat', sans-serif" font-size="50" font-weight="normal" fill="#656464">
+                    <tspan x="1019.40087" y="421">@</tspan>
+                </text>
+                <text id="Поступить-на-курс" transform="translate(1331.416087, 42.500000) rotate(15.000000) translate(-1331.416087, -42.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="1234.86415" y="46">Поступить на курс</tspan>
+                </text>
+                <text id="Поступить-на-курс" transform="translate(285.606114, 701.500000) rotate(-12.000000) translate(-285.606114, -701.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="189.054173" y="705">Поступить на курс</tspan>
+                </text>
+                <text id="Поступить-на-курс" transform="translate(770.398492, 56.500000) rotate(-16.000000) translate(-770.398492, -56.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="673.846551" y="60">Поступить на курс</tspan>
+                </text>
+                <text id="Поступить-на-курс" transform="translate(1078.348367, 320.000000) scale(1, -1) rotate(21.000000) translate(-1078.348367, -320.000000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="981.796426" y="326">Поступить на курс</tspan>
+                </text>
+                <text id="#MathBattle" transform="translate(1170.326796, 644.500000) rotate(-12.000000) translate(-1170.326796, -644.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="1108.83845" y="651">#MathBattle</tspan>
+                </text>
+                <text id="#MathBattle" transform="translate(371.486525, 188.500000) rotate(17.000000) translate(-371.486525, -188.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="309.998184" y="195">#MathBattle</tspan>
+                </text>
+                <text id="#MathBattle" transform="translate(104.190099, 534.500000) scale(1, -1) rotate(19.000000) translate(-104.190099, -534.500000) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="42.7017573" y="541">#MathBattle</tspan>
+                </text>
+                <text id="Ботать" transform="translate(1074.242818, 193.390738) rotate(12.000000) translate(-1074.242818, -193.390738) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="1031.5567" y="194.890738">Ботать</tspan>
+                </text>
+                <text id="Ботать" transform="translate(223.562899, 238.408136) rotate(-11.000000) translate(-223.562899, -238.408136) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="180.876778" y="239.908136">Ботать</tspan>
+                </text>
+                <text id="Ботать" transform="translate(616.885017, 756.408136) rotate(-11.000000) translate(-616.885017, -756.408136) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="574.198896" y="757.908136">Ботать</tspan>
+                </text>
+                <g id="ы-смайлик" transform="translate(182.000000, 115.000000)">
+                    <g id="Shape" transform="translate(28.465212, 30.470163) rotate(16.000000) translate(-28.465212, -30.470163) translate(6.965212, 4.970163)">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <g>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-9"></use>
+                            <use fill="#EA4C89" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        </g>
+                    </g>
+                    <text id="😀" transform="translate(26.958376, 31.963595) rotate(16.000000) translate(-26.958376, -31.963595) " font-family="AppleColorEmoji, Apple Color Emoji" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="14.698761" y="39.9635949">😀</tspan>
+                    </text>
+                </g>
+                <g id="ы-смайлик" transform="translate(1071.246519, 550.309860) rotate(21.000000) translate(-1071.246519, -550.309860) translate(1038.746519, 517.809860)">
+                    <g id="Shape" transform="translate(32.135478, 32.369069) rotate(16.000000) translate(-32.135478, -32.369069) translate(6.135478, 6.869069)">
+                        <mask id="mask-13" fill="white">
+                            <use xlink:href="#path-12"></use>
+                        </mask>
+                        <g>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-12"></use>
+                            <use fill="#EA4C89" fill-rule="evenodd" xlink:href="#path-12"></use>
+                        </g>
+                    </g>
+                    <text id="😀" transform="translate(32.185728, 32.322125) rotate(16.000000) translate(-32.185728, -32.322125) " font-family="AppleColorEmoji, Apple Color Emoji" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="22.82167" y="40.3221253">😀</tspan>
+                    </text>
+                </g>
+                <g id="Shape" transform="translate(1139.000000, 228.000000)">
+                    <mask id="mask-16" fill="white">
+                        <use xlink:href="#path-15"></use>
+                    </mask>
+                    <g>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-15"></use>
+                        <use fill="#E25A5A" fill-rule="evenodd" xlink:href="#path-15"></use>
+                    </g>
+                </g>
+                <text id="😇" font-family="AppleColorEmoji, Apple Color Emoji" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="1148" y="260">😇</tspan>
+                </text>
+                <text id="#MathBattle" transform="translate(200.034806, 480.451340) rotate(8.000000) translate(-200.034806, -480.451340) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="138.546465" y="481.95134">#MathBattle</tspan>
+                </text>
+                <text id="#MathBattle" transform="translate(901.440594, 737.480973) rotate(-5.000000) translate(-901.440594, -737.480973) " font-family="'Montserrat', sans-serif" font-size="20" font-weight="normal" fill="#656464">
+                    <tspan x="839.952253" y="738.980973">#MathBattle</tspan>
+                </text>
+                <g id="чмок-смайлик" transform="translate(958.000000, 38.000000)">
+                    <mask id="mask-19" fill="white">
+                        <use xlink:href="#path-18"></use>
+                    </mask>
+                    <g id="Shape" transform="translate(30.128375, 31.102351) rotate(-26.000000) translate(-30.128375, -31.102351) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-18"></use>
+                        <use fill="#4F54B9" fill-rule="evenodd" xlink:href="#path-18"></use>
+                    </g>
+                    <text id="😚" mask="url(#mask-19)" transform="translate(30.585797, 30.836200) rotate(-26.000000) translate(-30.585797, -30.836200) " font-family="AppleColorEmoji, Apple Color Emoji" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="18.3090108" y="38.8361998">😚</tspan>
+                    </text>
+                </g>
+                <g id="чмок-смайлик" transform="translate(280.510262, 516.020254) rotate(-5.000000) translate(-280.510262, -516.020254) translate(250.510262, 485.020254)">
+                    <mask id="mask-22" fill="white">
+                        <use xlink:href="#path-21"></use>
+                    </mask>
+                    <g id="Shape" transform="translate(30.087745, 31.102953) rotate(-26.000000) translate(-30.087745, -31.102953) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-21"></use>
+                        <use fill="#4FB4B9" fill-rule="evenodd" xlink:href="#path-21"></use>
+                    </g>
+                    <text id="😚" mask="url(#mask-22)" transform="translate(30.544483, 30.835236) rotate(-26.000000) translate(-30.544483, -30.835236) " font-family="AppleColorEmoji, Apple Color Emoji" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="18.2486859" y="38.8352363">😚</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
