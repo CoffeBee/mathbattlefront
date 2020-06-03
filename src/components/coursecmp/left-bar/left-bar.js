@@ -17,7 +17,7 @@ class LeftBar extends React.Component {
             <img src={thread} className="thread-icon"/>
             <p className="all-channels__text">Все потоки</p>
           </div>
-          <AllThreads/>
+          <AllThreads ref={this.props.thread} messages={this.props.messages} course_id={this.props.course_id}/>
         </div>
       );
     }

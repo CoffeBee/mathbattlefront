@@ -4,10 +4,9 @@ import line from './images/line.svg'
 import upload from './images/icons/upload.svg'
 import emodgi from './images/icons/emodgi.png'
 import microphone from './images/icons/microphone.svg'
-
+import axios from 'axios';
+import qs from 'qs'
 import { w3cwebsocket as W3CWebSocket } from "websocket";
-
-const client = new W3CWebSocket('ws://127.0.0.1:3000/ws');
 
 class Message extends React.Component {
     render() {
@@ -26,28 +25,57 @@ class Message extends React.Component {
 
 
 class Messages extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      now: "",
+      messages: [],
+    }
+  }
+  logID(id) {
+    axios.post(`http://api.math.silaeder.ru/chat/select`,qs.stringify({
+      id: id,
+    }),{
+      headers: {"Access-Control-Allow-Origin": "*",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Authorization": "Bearer PJwMrP9fG/AvrccYTkgClA=="},
+    responseType: 'json',
+     }).then(res => {
+      const messages = res.data;
+      this.setState({ messages: messages });
+      })
+  }
     componentWillMount() {
+        var client = new W3CWebSocket('ws://api.math.silaeder.ru/chat')
         client.onopen = () => {
-          client.send("Hi");
-          console.log('WebSocket Client Connected');
+          client.send("PJwMrP9fG/AvrccYTkgClA==")
         };
         client.onmessage = (message) => {
-
-          console.log(message);
+          if (!message.data.startsWith('AUTH')) {
+            var msg = JSON.parse(message.data);
+            console.log(msg.data);
+            this.setState ({ messages: this.state.messages.concat(msg.data) })
+          }
         };
       }
+    sendMessage(e) {
+      axios.post(`http://api.math.silaeder.ru/chat/send`,qs.stringify({
+        text: this.state.now,
+      }),{
+        headers: {"Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Authorization": "Bearer PJwMrP9fG/AvrccYTkgClA=="},
+      responseType: 'json',
+      }).then(res => {
+      })
+      this.setState({now: ""})
+      e.preventDefault();
+
+    }
+    printText(e) {
+      this.setState({now: e.target.value})
+    }
     render() {
-      var messages = [{name : "Иван Подворный", time : "12:41 AM", text: "Мы сортируем все дома - идём от максимального по заражённости - если мы заняли весь округ то соединмяем и прибавляем разницу"}]
-      messages = messages.concat([{name : "Алексей Маренков", time: "17:09 PM", text : "Ваня, а можешьд дать идею как такое решить? Прост я подумал, что давайте мы для каждого округа и дома подсчитаем насколько мы хотим к ним поставить наблюдателя - но в итоге получился тест 5 2 3"}])
-      messages = messages.concat(messages)
-      messages = messages.concat(messages)
-      messages = messages.concat(messages)
-      messages = messages.concat(messages)
-      messages = messages.concat(messages)
-      var items = [];
-      for (const [index, value] of messages.entries()) {
-        items.push(<Message name={value.name} time={value.time} text={value.text}/>)
-      }
       return (
         <div>
             <div className="messages">
@@ -68,19 +96,19 @@ class Messages extends React.Component {
                     <div className="messages__content__bottom">
                         <div className="messages__container">
                             <hr className="messages__line" alt=""/>
-                            {items}
+                            { this.state.messages.map(message => <Message name={message.user.username} time={message.sendAt} text={message.text}/>)}
                         </div>
 
                     </div>
                 </div>
             </div>
-            <form className="new_message__form">
+            <form className="new_message__form" onSubmit={this.sendMessage.bind(this)}>
               <hr className="new_message__line" alt=""/>
               <img src={upload} className="new_message__icons_upload"/>
               <img src={emodgi} className="new_message__icons_emodgi"/>
               <img src={microphone} className="new_message__icons_microphone"/>
               <div className="new_message__input_div">
-                  <input type="text" className="new_message__input" value="Написать в # Хитрый лис"/>
+                  <input type="text" value={this.state.now} onChange={this.printText.bind(this)} className="new_message__input" placeholder="Написать в # Хитрый лис"/>
               </div>
             </form>
         </div>
