@@ -1,4 +1,5 @@
 import React from "react";
+import axios from 'axios';
 import { BrowserRouter, Route } from "react-router-dom";import './App.css';
 
 import Course from './components/coursecmp/Course.js';
@@ -12,7 +13,7 @@ class App extends React.Component {
         <div>
           <Route path='/' component={Course} exact/>
           <Route path='/login' component={Login} exact/>
-          <Route path='/register' component={Register} exact/>
+          <Route path='/signup' component={Register} exact/>
         </div>
       </BrowserRouter>
     );
