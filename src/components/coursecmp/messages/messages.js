@@ -80,7 +80,7 @@ class Messages extends React.Component {
               <img src={emodgi} className="new_message__icons_emodgi"/>
               <img src={microphone} className="new_message__icons_microphone"/>
               <div className="new_message__input_div">
-                  <input type="text" className="new_message__input" value="Написать в # Хитрый лис"/>
+                  <input type="text" className="new_message__input" placeholder="Написать в # Хитрый лис"/>
               </div>
             </form>
         </div>
