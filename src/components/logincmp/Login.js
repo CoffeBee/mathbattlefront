@@ -11,15 +11,13 @@ const Login = () => {
           <p className="field__enter_p">Вход</p>
           <form>
             <div className="form__nickname">
-                <input className="form__nickname_p" value="Никнейм"/>
+                <input className="form__nickname_p" placeholder="Никнейм"/>
             </div>
             <div className="form__password">
-                <input className="form__password_p" value="Пароль"/>
+                <input className="form__password_p" placeholder="Пароль"/>
             </div>
-            <div className="row">
-              <a href="/register" classname="register_p">Нет аккаунта? Создайте!</a>
-              <button type="submit" className="form_submit form_submit_p">Вход</button>
-            </div>
+            <a href="/register" classname="register_p">Нет аккаунта? Создайте!</a>
+            <button type="submit" className="form_submit form_submit_p">Вход</button>
           </form>
         </div>
       </div>
