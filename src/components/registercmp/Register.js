@@ -11,16 +11,16 @@ const Register = () => {
           <p className="field__enter_p">Регистрация</p>
           <form>
             <div className="form__nickname">
-                <input className="form__nickname_p" value="Никнейм"/>
+                <input className="form__nickname_p" placeholder="Никнейм"/>
             </div>
             <div className="form__name">
-                <input className="form__nickname_p" value="Имя"/>
+                <input className="form__nickname_p" placeholder="Имя"/>
             </div>
             <div className="form__surname">
-                <input className="form__nickname_p" value="Фамилия"/>
+                <input className="form__nickname_p" placeholder="Фамилия"/>
             </div>
             <div className="form__password">
-                <input className="form__password_p" value="Пароль"/>
+                <input className="form__password_p" placeholder="Пароль"/>
             </div>
             <button type="submit" className="form_submit form_submit_p">Создать</button>
           </form>
