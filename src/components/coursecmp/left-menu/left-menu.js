@@ -1,5 +1,9 @@
 import React from 'react';
 import './left-menu.css'
+import LeftBar from '../left-bar/left-bar.js'
+import Messages from '../messages/messages.js'
+
+
 import axios from 'axios';
 const icons = ["8C", "8T", "Доп", "MathBattle"]
 
@@ -37,7 +41,7 @@ class ServerIcon extends React.Component {
 
   render() {
     return (
-      <div className="server-icon" style={{backgroundColor: this.fungetRandomColor(this.props.text)}}>
+      <div className="server-icon" onClick = {this.props.handler} style={{backgroundColor: this.fungetRandomColor(this.props.text)}}>
         <p className="server-icon-text">{this.props.text}</p>
       </div>
     );
@@ -45,15 +49,25 @@ class ServerIcon extends React.Component {
 }
 
 class LeftMenu extends React.Component {
-  state = {
-    courses: []
+  constructor(props) {
+    super(props)
+    this.state = {
+      courses: [],
+    }
+    this.threads = React.createRef();
+    this.messages = React.createRef();
   }
+  handler(id) {
+    this.setState({course_now: id});
+    this.threads.current.load_threads(id);
+  }
+
 
   componentDidMount() {
     axios.get(`http://api.math.silaeder.ru/courses`,{
       headers: {"Access-Control-Allow-Origin": "*",
       "Content-Type": "application/x-www-form-urlencoded",
-      "Authorization": "Bearer ibzy7UIYZ7NsXEH5+cpGvg=="},
+      "Authorization": "Bearer zw7J3dyvwoaiKVSUy83vWg=="},
     responseType: 'json',
      }).then(res => {
         console.log(res);
@@ -65,9 +79,13 @@ class LeftMenu extends React.Component {
   render() {
     
     return (
-    <div className="left-menu">
-      { this.state.courses.map(course => <ServerIcon text={course.name}/>)}
-    </div>
+      <div>
+         <div className="left-menu">
+          { this.state.courses.map(course => <ServerIcon text={course.name} handler = {this.handler.bind(this, course.id)}/>)}
+        </div>
+        <LeftBar thread={this.threads} messages={this.messages} course_id={this.state.course_now}/>
+        <Messages ref={this.messages}/>
+      </div>
     );
   }
 }

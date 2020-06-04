@@ -40,7 +40,7 @@
 
 .messages__content {
     overflow-y: scroll;
-    height: 100vh;
+    height: calc(100vh - 187px);
     margin: 0;
 
     display: flex;

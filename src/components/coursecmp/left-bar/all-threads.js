@@ -8,15 +8,15 @@ class AllThreads extends React.Component {
   state = {
     chats: []
   }
-
-  componentDidMount() {
+  
+  load_threads(id) {
     console.log("MOUND")
     axios.post(`http://api.math.silaeder.ru/courses/chats`,qs.stringify({
-      id: 'd60e853a-7de9-4091-ba0a-b87e79939364',
+      id: id,
     }),{
       headers: {"Access-Control-Allow-Origin": "*",
       "Content-Type": "application/x-www-form-urlencoded",
-      "Authorization": "Bearer ibzy7UIYZ7NsXEH5+cpGvg=="},
+      "Authorization": "Bearer zw7J3dyvwoaiKVSUy83vWg=="},
     responseType: 'json',
      }).then(res => {
         console.log(res);
@@ -24,7 +24,13 @@ class AllThreads extends React.Component {
         this.setState({ chats });
       })
   }
+
+  select(id) {
+    this.props.messages.current.logID(id)
+  }
+
   render() {
+    
     return (
         <div>
             <div className="list-header">
@@ -32,7 +38,7 @@ class AllThreads extends React.Component {
               <p className="list-header__right">0</p>
           </div>
           
-          { this.state.chats.map(chat => <div className="list-item"><p className="list-item__text">{chat.name}</p></div>)}
+          { this.state.chats.map(chat => <div className="list-item" onClick={this.select.bind(this, chat.id)}><p className="list-item__text">{chat.name}</p></div>)}
         </div>
     );
   }
