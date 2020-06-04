@@ -67,7 +67,7 @@ class LeftMenu extends React.Component {
     axios.get(`http://api.math.silaeder.ru/courses`,{
       headers: {"Access-Control-Allow-Origin": "*",
       "Content-Type": "application/x-www-form-urlencoded",
-      "Authorization": "Bearer PJwMrP9fG/AvrccYTkgClA=="},
+      "Authorization": "Bearer zw7J3dyvwoaiKVSUy83vWg=="},
     responseType: 'json',
      }).then(res => {
         console.log(res);

@@ -38,7 +38,7 @@ class Messages extends React.Component {
     }),{
       headers: {"Access-Control-Allow-Origin": "*",
       "Content-Type": "application/x-www-form-urlencoded",
-      "Authorization": "Bearer PJwMrP9fG/AvrccYTkgClA=="},
+      "Authorization": "Bearer zw7J3dyvwoaiKVSUy83vWg=="},
     responseType: 'json',
      }).then(res => {
       const messages = res.data;
@@ -48,7 +48,7 @@ class Messages extends React.Component {
     componentWillMount() {
         var client = new W3CWebSocket('ws://api.math.silaeder.ru/chat')
         client.onopen = () => {
-          client.send("PJwMrP9fG/AvrccYTkgClA==")
+          client.send("zw7J3dyvwoaiKVSUy83vWg==")
         };
         client.onmessage = (message) => {
           if (!message.data.startsWith('AUTH')) {
@@ -64,7 +64,7 @@ class Messages extends React.Component {
       }),{
         headers: {"Access-Control-Allow-Origin": "*",
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Bearer PJwMrP9fG/AvrccYTkgClA=="},
+        "Authorization": "Bearer zw7J3dyvwoaiKVSUy83vWg=="},
       responseType: 'json',
       }).then(res => {
       })
